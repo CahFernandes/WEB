@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro </title>
+</head>
+<body bgcolor="lightblue">
+    <h2 align="center">Cadastro para aula sobre Criptomoedas</h2>
+    <br/><br/>
+    <table width="500" align="center" bgcolor="lightgray">
+    <tr>
+        <td>    
+            <fieldset>
+                <legend> Informe seus dados </legend>
+                <form action="" method="post"></form>
+                    <label> Nome: </label>
+                    <input type="text" name="nome" id="nome" maxlength="80" size="50" placeholder="Digite seu nome" required>
+                    
+                    <br/><br/>
+                    <label> E-mail: </label>
+                    <input type="email" name="mail" id="mail" maxlength="80" size="50" placeholder="Digite seu e-mail" required>
+
+                    <br/><br/>
+                    <label> Telefone: </label>
+                    <input type="tel" name="telefone" id="telefone" maxlength="15" size="20" placeholder="Digite seu telefone" required>
+
+                    <br/><br/>
+                    <label> Data de Nascimento: </label>
+                    <input type="date" name="data_nasc" id="data_nasc" min="1900-01-01" max="2004-06-25" required>
+
+                    <br/><br/>
+                    <label> Sexo: </label><br/>          
+                    <input type="radio" id="Sexo" name="Sexo" value="feminino">
+                    <label for="feminino">Feminino</label><br>
+                    <input type="radio" id="Sexo" name="Sexo" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="Sexo" name="Sexo" value="outros">
+                    <label for="outros">Outros</label>
+
+                    <br/><br/>
+                    <label> Endereço: </label>
+                    <input type="text" name="endereco" id="endereco" maxlength="80" size="50" placeholder="Digite seu endereco" required>
+
+                    
+                    <br/><br/>
+                    <label> Número: </label>
+                    <input type="Number" name="numero" id="numero" maxlength="80" size="10" placeholder="Numero do seu endereco" required>
+
+                    <br/><br/>
+                    <label> Cidade: </label>
+                    <input type="text" name="cidade" id="cidade" maxlength="80" size="50" placeholder="Digite sua cidade" required>
+                    
+                    
+                    <br/><br/>
+                    <label> Estado: </label>
+                    <select name="cidade" id="cidade" required>
+                        <option value="" selected="Selected">Selecione um Estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select>
+
+                    <br/><br/>
+                    <label> Sobre qual(is) Criptomoeda(s) deseja aprender: </label><br/>          
+                    <input type="checkbox" id="bitcoin" name="bitcoin" value="Bitcoin">
+                    <label for="bitcoin">Bitcoin</label><br>
+                    <input type="checkbox" id="etherium" name="etherium" value="Etherium">
+                    <label for="etherium">Etherium</label><br>
+                    <input type="checkbox" id="solana" name="solana" value="Solana">
+                    <label for="solana">Solana</label><br>
+                    <input type="checkbox" id="dogecoin" name="dogecoin" value="Dogecoin">
+                    <label for="dogecoin">Dogecoin</label><br>
+                    <input type="checkbox" id="shiba" name="shiba" value="shiba">
+                    <label for="shiba">Shiba</label><br>
+                    
+
+
+                    <br/><br/>
+                    <label> Senha: </label>
+                    <input type="password" name="senha" id="senha" maxlength="80" size="20" placeholder="Informe uma senha" required>
+
+
+                    <br/><br/>
+                    <label> Comentário </label>
+                    <textarea type="text" name="coment" id="coment" placeholder="Digite seu comentário" rows="4" cols="60" required ></textarea>
+                        
+                    <br/><br/>
+                    <button type="button" name="salvar" id="salvar"> <font color="black" size="4" face="verdana, arial, times new roman"><strong>Salvar </strong></font></button>
+
+                    <br/><br/>    
+
+            </fieldset>
+        </td>
+    </tr> 
+
+    </table>
+
+        
+
+
+
+</body>
+</html>
